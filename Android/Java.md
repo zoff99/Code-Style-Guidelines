@@ -6,6 +6,50 @@ All Sourcefiles should be UTF-8
 
 ##Indentation
 Use only tabs to indent. (not single spaces)
+always and ONLY use "Allman style" https://en.wikipedia.org/wiki/Indent_style#Allman_style
+
+**a few examples of correct Allman style Indentation:**
+```
+if (x == y) 
+{
+  x++;
+  foo();
+} 
+else 
+{
+  x--;
+  bar();
+}
+```
+
+```
+@Override public void method()
+{
+  if (value == 12)
+  {
+    always_write_brackets(value);
+  }
+}
+```
+
+**never ever do these:**
+```
+if (x == y) {
+  x++;
+  foo();
+} 
+else x--;
+```
+
+```
+@Override public void method()
+{
+  if (value == 12)
+    always_write_brackets(value);
+}
+```
+
+
 
 ##Comments
 Use comments as often as possible.
