@@ -49,7 +49,12 @@ else x--;
 }
 ```
 
-
+```
+if (something)
+  functionOne();
+else 
+  functionTwo();
+```
 
 ##Comments
 Use comments as often as possible.
