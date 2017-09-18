@@ -1,10 +1,10 @@
 # Code Style Guidelines for: ***Android / Java***
 
 
-##File encoding
+## File encoding
 All Sourcefiles should be UTF-8
 
-##Indentation
+## Indentation
 Use only tabs to indent. (not single spaces)
 always and ONLY use "Allman style" https://en.wikipedia.org/wiki/Indent_style#Allman_style
 
@@ -56,11 +56,11 @@ else
   functionTwo();
 ```
 
-##Comments
+## Comments
 Use comments as often as possible.
 Comment only in English
 
-##Naming Conventions
+## Naming Conventions
 Constants are in all CAPS
 ```
 final static String CONSTANT_STRING_FOR_SOMETHING = "abcxd5";
@@ -81,7 +81,7 @@ String funny_name_upper_and_lower = "x";
 float no_german_only_english = 1.3f;
 ```
 
-##Grouping parentheses
+## Grouping parentheses
 always use parentheses often, so no confusion occurs
 
 **wrong:**
